@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="irfan_ansari_2639526.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+  <main>
+    <div class="container">
+
+      <!-- Title -->
+      <h1 class="irfan">Weather App</h1>
+
+      <!-- Search -->
+      <div class="search">
+        <input type="text" id="searchbar" placeholder="Enter City Name" required>
+        <button id="searchbtn">Search</button>
+      </div>
+
+      <!-- Top Bar (Date & Day) -->
+      <div id="topbar">
+        <div id="day">Day: --</div>
+        <div id="date">Date: --</div>
+      </div>
+
+      <!-- Main Weather -->
+      <div class="weather-main">
+        <h2 id="city">City</h2>
+
+        <img id="icon" src="" alt="Weather Icon">
+
+        <h1 id="temperature">0°C</h1>
+        <h3 id="weathercondition">Condition</h3>
+        <p id="mainweather">Description</p>
+      </div>
+
+      <!-- Extra Info -->
+      <div id="extras">
+
+        <div class="extra-box">
+          <div id="sunrise">Sunrise: --</div>
+          <div id="sunset">Sunset: --</div>
+        </div>
+
+        <div class="extra-box">
+          <div id="longitude">Longitude: --</div>
+          <div id="latitude">Latitude: --</div>
+        </div>
+
+      </div>
+
+      <!-- Weather Details -->
+      <div class="details">
+
+        <div class="detail-box">
+          <i class="fa-solid fa-temperature-arrow-up"></i>
+          <p id="pressure">Pressure</p>
+        </div>
+
+        <div class="detail-box">
+          <i class="fa-solid fa-droplet"></i>
+          <p id="humidity">Humidity</p>
+        </div>
+
+        <div class="detail-box">
+          <i class="fa-solid fa-wind"></i>
+          <p id="windSpeed">Wind Speed</p>
+        </div>
+
+        <div class="detail-box">
+          <i class="fa-regular fa-compass"></i>
+          <p id="windDirection">Wind Direction</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Copy right© Irfan Ansari meow</p>
+    </footer>
+
+  </main>
+
+  <script src="irfan_ansari_2639526.js"></script>
+
+</body>
+
+</html>
